@@ -11,15 +11,15 @@ const Nav = () => {
     },
     {   key:1,
         name:"About",
-        href: "/"
+        href: "#about"
     },
     {   key: 2,
         name:"Gallery",
-        href: "/"
+        href: "#gallery"
     },
     {   key: 3,
         name:"Contact",
-        href: "/"
+        href: "#contact"
     }
   ]
 
