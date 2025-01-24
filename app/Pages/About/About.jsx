@@ -11,7 +11,7 @@ const About = () => {
             <p className=''>Streetwear brand founded in Rome,Italy 2024-25.<br></br>
                 Small group of friends who aims to provide minimalist style clothing while maintining the italian fashion identity!
             </p>
-            <img className='imagebox mt-10' src="https://images.unsplash.com/photo-1693901257178-b5fcb8f036a8?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+            <img className='imagebox mt-10 transform transition-transform hover:scale-105' src="https://images.unsplash.com/photo-1693901257178-b5fcb8f036a8?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
         </div>
     </div>
   )

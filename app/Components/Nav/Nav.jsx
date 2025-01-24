@@ -28,7 +28,7 @@ const Nav = () => {
         <div className="logo text-2xl font-bold">MN_</div>
         <div className="navLinks grid grid-cols-4 gap-4">
             {navList.map((link) => (
-                <Link className="link hover:text-red-600" key={link.key} href={link.href}>{link.name}</Link>
+                <Link className="link bg-white text-white hover:text-red-600 hover:bg-black" key={link.key} href={link.href}>{link.name}</Link>
             ))}
         </div>
     </div>
