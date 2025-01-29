@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => {
   return (
     <div className='About grid justify-center items-center h-screen' id='about'>
-        <h1 className='text-4xl'>About</h1>
+        <h1 className='text-center text-4xl'>About</h1>
         <div className="text-section w-2/4 m-auto grid grid-cols-1 md:grid-cols-1 p-5">
             <h1 className='text-2xl mb-2 hover:text-red-600'>Less is more.
                 More is less.

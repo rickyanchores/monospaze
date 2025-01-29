@@ -14,16 +14,16 @@ const Gallery = () => {
       <h1 className="text-center text-2xl font-bold mb-6">Gallery</h1>
       <div className="grid gap-4 w-full max-w-6xl p-4 rounded-lg">
         {/* Responsive grid for different screen sizes */}
-        <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-auto gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-auto gap-2">
           {images.map((image, index) => (
             <div
               key={index}
-              className={`overflow-hidden rounded-lg ${image.className} sm:col-span-1 sm:row-span-1 lg:${image.className}`}
+              className={`overflow-hidden  ${image.className} sm:col-span-1 sm:row-span-1 lg:${image.className}`}
             >
               <img
                 src={image.src}
                 alt={image.alt}
-                className="w-[75%] h-[75%] object-cover transform transition-transform hover:scale-105"
+                className="object-cover transform transition-transform hover:scale-105"
               />
             </div>
           ))}
