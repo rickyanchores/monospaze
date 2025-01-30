@@ -17,7 +17,7 @@ export default function App() {
     {
       key:1,
       name: "",
-      url: "https://images.unsplash.com/photo-1508427953056-b00b8d78ebf5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0Nzg3MDV8MHwxfHNlYXJjaHwyfHxtaW5pbWFsaXN0JTIwbW9kZWwlMjB8ZW58MHx8fHwxNzM3NjMwNTQ0fDA&ixlib=rb-4.0.3&q=80&w=1080"
+      url: "https://www.logansfashions.co.uk/cdn/shop/articles/what-is-minimalist-fashion.jpg?v=1662645828"
     }
   ]
 
@@ -26,9 +26,10 @@ export default function App() {
     <div className="App font-mono">
       <Nav />
       <Home />
-      <Banner image={bannerImage.name}/>
+      <Banner image={bannerImage[0].url}/>
       <About />
       <Gallery />
+      <Banner image={bannerImage[1].url}/>
       <Footer />
     </div>
   );
