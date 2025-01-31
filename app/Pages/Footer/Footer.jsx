@@ -24,7 +24,7 @@ const Footer = () => {
   return (
     <div className='Footer grid justify-center items-center h-screen' id='gallery'>
         <div className='Contact' id='contact'>
-        <h1 className='title text-8xl font-extrabold hover:text-red-700 transform transition-transform hover:scale-105'>MN_</h1>
+        <h1 className='title text-8xl font-extrabold hover:bg-white hover:p-4 hover:text-black transform transition-transform hover:scale-105'>MN_</h1>
           <div className="direct-contacts grid gap-4 mt-5">
             {directLinks.map((link) => (
               <Link key={link.key} href={link.href} target='_blank' className='link hover:text-red-600'>
