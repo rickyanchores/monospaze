@@ -32,7 +32,6 @@ const Footer = () => {
               </Link>
             ))}
           </div>
-          <img src="image footer" alt="" />
         </div>
     </div>
   )
